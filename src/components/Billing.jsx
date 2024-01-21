@@ -26,19 +26,37 @@ const Billing = () => {
         </p>
         <div></div>
         <div className="flex flex-col sm:mt-10 mt-6">
-          <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[12px] mb-3">
-            <img src={discount} alt="discount" className="w-[50px] h-[50px]" />
-            <p className={`${styles.paragraph} ml-5`}>
-              <span className="text-white">Volume Discount Package</span> <br/>
-            </p>
-            <span className="text-white">Customized pricing offered for clients with over 10 positions, fostering budget flexibility.</span>
+          <div className="flex flex-col sm:flex-row items-center py-2 sm:py-3 px-4 bg-discount-gradient rounded-lg mb-3">
+            <img
+              src={discount}
+              alt="discount"
+              className="w-12 h-12 sm:w-14 sm:h-14 mb-2 sm:mb-0 mr-4"
+            />
+            <div>
+              <p className="text-white text-sm sm:text-base font-semibold mb-1">
+                Volume Discount Package
+              </p>
+              <span className="text-white text-sm sm:text-base">
+                Customized pricing offered for clients with over 10 positions,
+                fostering budget flexibility.
+              </span>
+            </div>
           </div>
-          <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-3">
-            <img src={discount} alt="discount" className="w-[50px] h-[50px]" />
-            <p className={`${styles.paragraph} ml-5`}>
-              <span className="text-white">Flat Fee Pricing Model</span>
-            </p>
-            <span className="text-white">Consistent fees regardless of scale or complexity, ensuring transparent and budget-friendly costs for clients.</span>
+          <div className="flex flex-col sm:flex-row items-center py-2 sm:py-3 px-4 bg-discount-gradient rounded-lg mb-3">
+            <img
+              src={discount}
+              alt="discount"
+              className="w-12 h-12 sm:w-14 sm:h-14 mb-2 sm:mb-0 mr-4"
+            />
+            <div>
+              <p className="text-white text-sm sm:text-base font-semibold mb-1">
+                Flat Fee Pricing Model
+              </p>
+              <span className="text-white text-sm sm:text-base">
+                Consistent fees regardless of scale or complexity, ensuring
+                transparent and budget-friendly costs for clients.
+              </span>
+            </div>
           </div>
         </div>
       </div>
