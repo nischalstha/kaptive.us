@@ -109,15 +109,15 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        link: "https://www.kaptive.us/content/"
+        link: "https://www.kaptiv.us/content/"
       },
       {
         name: "Book Consultation (Free)",
-        link: "https://www.kaptive.us/how-it-works/"
+        link: "https://www.kaptiv.us/how-it-works/"
       },
       {
         name: "Contact Us",
-        link: "https://www.kaptive.us/create/"
+        link: "https://www.kaptiv.us/create/"
       }
     ]
   },
@@ -126,7 +126,7 @@ export const footerLinks = [
     links: [
       {
         name: "Become a Partner",
-        link: "https://www.kaptive.us/become-a-partner/"
+        link: "https://www.kaptiv.us/become-a-partner/"
       }
     ]
   }
