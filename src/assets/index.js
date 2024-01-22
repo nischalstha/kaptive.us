@@ -26,6 +26,10 @@ import people03 from "./people03.png";
 import newlogo from "./newlogo.png";
 import headway from "./headway.jpg";
 import kaptivelanding from "./kaptivelanding.jpg";
+import elephant from "./logos/elephant.png";
+import letterK from "./logos/letterK.png";
+import logoenlarged from "./logos/originallogo-enlarged.png";
+import originallogo from "./logos/originallogo.png";
 
 export {
   airbnb,
@@ -55,5 +59,9 @@ export {
   people03,
   newlogo,
   headway,
-  kaptivelanding
+  kaptivelanding,
+  elephant,
+  letterK,
+  logoenlarged,
+  originallogo
 };

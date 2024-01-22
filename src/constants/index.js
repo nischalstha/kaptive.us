@@ -64,15 +64,15 @@ export const feedback = [
     content:
       "We appreciated your cost-effective approach. Saving money while getting results - that's a win-win",
     name: "Robert Turner",
-    title: "Operations Manager",
+    title: "IT Manager",
     img: people01
   },
   {
     id: "feedback-2",
     content:
       "Your unwavering commitment to our project was impressive. You truly think beyond the box, and it shows.",
-    name: "Steve Mark",
-    title: "Business Owner",
+    name: "Glen Dyer",
+    title: "Director of Tech Advancement",
     img: people02
   },
   {
@@ -80,7 +80,7 @@ export const feedback = [
     content:
       "We appreciated your service's focus on our budget. You provided efficient solutions that made a positive impact on our finances.",
     name: "Amit Sharma",
-    title: "CFO",
+    title: "CTO",
     img: people03
   }
 ];
@@ -108,59 +108,22 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
+        name: "About Us",
         link: "https://www.kaptive.us/content/"
       },
       {
-        name: "How it Works",
+        name: "Book Consultation (Free)",
         link: "https://www.kaptive.us/how-it-works/"
       },
       {
-        name: "Create",
+        name: "Contact Us",
         link: "https://www.kaptive.us/create/"
-      },
-      {
-        name: "Explore",
-        link: "https://www.kaptive.us/explore/"
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.kaptive.us/terms-and-services/"
-      }
-    ]
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.kaptive.us/help-center/"
-      },
-      {
-        name: "Partners",
-        link: "https://www.kaptive.us/partners/"
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.kaptive.us/suggestions/"
-      },
-      {
-        name: "Blog",
-        link: "https://www.kaptive.us/blog/"
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.kaptive.us/newsletters/"
       }
     ]
   },
   {
     title: "Partner",
     links: [
-      {
-        name: "Our Partner",
-        link: "https://www.kaptive.us/our-partner/"
-      },
       {
         name: "Become a Partner",
         link: "https://www.kaptive.us/become-a-partner/"
@@ -171,24 +134,9 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/"
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/"
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/"
-  },
-  {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/"
+    link: "https://www.linkedin.com/company/kaptiv-llc/"
   }
 ];
 

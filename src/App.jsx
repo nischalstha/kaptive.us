@@ -12,6 +12,9 @@ import {
   Testimonials 
 } from './components'
 import styles from './style'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Terms from './components/Terms';
+
 
 const App = () => {
   return (
@@ -38,6 +41,11 @@ const App = () => {
           <Footer/>     
         </div>
       </div>
+      <Router>
+            <Routes>
+                <Route path="/terms-and-services" element={<Terms />} />
+            </Routes>
+        </Router>
     </div>
   )
 }

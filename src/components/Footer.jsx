@@ -1,31 +1,28 @@
 import React from 'react'
 import styles from '../style'
-import { logo } from '../assets'
 import { footerLinks, socialMedia } from '../constants'
+import { logoenlarged} from '../assets'
 
 const Footer = () => {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className='flex-1 flex flex-col justify-start mr-10'>
-        <h3 className='flex-1 font-poppins font-semibold ss:text-[32px] text-[55px] text-white ss:leading-[100.8px] '>
-           kaptiv
-            <span className='text-gradient'>.us</span> {" "}
-          </h3>
-          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
+        <img src={logoenlarged} alt="hoobank" className="w-[125px] h-[100%]" />
+          <p className={`${styles.paragraph} mt-4 max-w-[360px]`}>
             Kapturing today for better tomorrow.         
           </p>
         </div>
         <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
           {footerLinks.map((link) => (
-            <div key={link.title} className='flex flex-col ss:my-0 my-4 min-w-[150px]'>
+            <div key={link.title} className='flex flex-col ss:my-0 my-4 min-w-[300px]'>
               <h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white'>
                 {link.title}
               </h4>
               <ul className='list-none mt-4'>
                 {link.links.map((item, index) => (
                   <li 
-                    key={item.name} 
+                    key={item.name}
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== link.links.length - 1 ? 'mb-4' : 'mb-0'}`}
                   >
                     {item.name}

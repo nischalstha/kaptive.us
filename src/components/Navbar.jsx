@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { close, logo, menu, newlogo } from '../assets'
+import { close, menu, originallogo , logoenlarged} from '../assets'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
@@ -8,10 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <h3 className='flex-1 font-poppins font-semibold ss:text-[32px] text-[55px] text-white ss:leading-[100.8px] '>
-           kaptiv
-            <span className='text-gradient'>.us</span> {" "}
-          </h3>
+          <img src={logoenlarged} alt="hoobank" className="w-[125px] h-[100%]" />
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, i) => (
           <li 
