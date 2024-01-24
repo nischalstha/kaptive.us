@@ -125,7 +125,7 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Become a Partner",
+        name: "Become a Partner (Coming soon)",
         link: "https://www.kaptiv.us/become-a-partner/"
       }
     ]

@@ -4,7 +4,7 @@ import { arrowUp } from '../assets'
 
 const GetStarted = () => {
   const handleOnClick = () => {
-    window.open('https://calendly.com/kaptivus/client-discovery-call?month=2024-01', '_blank');
+    window.open('https://calendly.com/kaptivus/staffing-discovery-call?month=2024-01', '_blank');
   };
   return (
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`} onClick={()=> handleOnClick()}>
