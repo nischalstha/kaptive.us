@@ -25,7 +25,7 @@ export const navLinks = [
     title: "About Us"
   },
   {
-    id: "product",
+    id: "book",
     title: "Book Consultation (Free)"
   },
   {
@@ -109,15 +109,18 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        link: "https://www.kaptiv.us/content/"
+        link: "https://www.kaptiv.us/content/",
+        id: "about"
       },
       {
         name: "Book Consultation (Free)",
-        link: "https://www.kaptiv.us/how-it-works/"
+        link: "https://www.kaptiv.us/how-it-works/",
+        id: "book"
       },
       {
         name: "Contact Us",
-        link: "https://www.kaptiv.us/create/"
+        link: "https://www.kaptiv.us/create/",
+        id: "contact"
       }
     ]
   },
