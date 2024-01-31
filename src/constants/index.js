@@ -12,7 +12,13 @@ import {
   dropbox,
   send,
   shield,
-  star
+  star,
+  talentsearch,
+  puzzle,
+  quality,
+  management,
+  insight,
+  diversity
 } from "../assets";
 
 export const navLinks = [
@@ -167,25 +173,25 @@ export const whyUs = [
     id: "whyus-1",
     content:
       "Leverage our extensive network of seasoned IT professionals to find candidates who not only meet the skill requirements but also align with your company culture.",
-    name: "Expert Network Access",
+    name: "Expert Network",
     title: "Broad IT Talent Pool",
-    img: people01
+    img: talentsearch
   },
   {
     id: "whyus-2",
     content:
       "Benefit from our personalized approach to recruitment. We take the time to understand the unique needs of your business, ensuring that each candidate we present is a perfect match for your company.",
-    name: "Tailored Recruitment Solutions",
+    name: "Tailored Solutions",
     title: "Customized Candidate Matching",
-    img: people02
+    img: puzzle
   },
   {
     id: "whyus-3",
     content:
       "Benefit from our in-depth screening process which includes technical interviews, culture fit analysis, and performance assessments for optimal candidate selection.",
-    name: "Rigorous Screening Process",
+    name: "Rigorous Screening",
     title: "Quality Talent Assurance",
-    img: people03
+    img: quality
   },
   {
     id: "whyus-4",
@@ -193,7 +199,7 @@ export const whyUs = [
       "Our dedicated account managers provide personalized service, staying attuned to your evolving needs and offering continuous support throughout the recruitment cycle.",
     name: "Personalized Client Service",
     title: "Dedicated Account Management",
-    img: people01
+    img: management
   },
   {
     id: "whyus-5",
@@ -201,7 +207,7 @@ export const whyUs = [
       "Stay competitive with our insights into the latest trends and innovations in the tech industry. We ensure you're connected with professionals who are at the forefront of their fields.",
     name: "Industry Insights",
     title: "Future-focused Talent Acquisition",
-    img: people02
+    img: insight
   },
   {
     id: "whyus-6",
@@ -209,6 +215,6 @@ export const whyUs = [
       "Our commitment to fostering diversity in the workplace helps you build a rich, inclusive team that's equipped to drive innovation and growth.",
     name: "Diversity & Inclusion",
     title: "Cultivating Diverse Teams",
-    img: people03
+    img: diversity
   }
 ];

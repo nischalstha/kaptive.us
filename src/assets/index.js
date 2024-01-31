@@ -30,6 +30,12 @@ import elephant from "./logos/elephant.png";
 import letterK from "./logos/letterK.png";
 import logoenlarged from "./logos/originallogo-enlarged.png";
 import originallogo from "./logos/originallogo.png";
+import diversity from "./diversity.png";
+import insight from "./insight.png";
+import management from "./management.png";
+import puzzle from "./puzzle.png";
+import quality from ".//quality.png";
+import talentsearch from "./talentsearch.png";
 
 export {
   airbnb,
@@ -63,5 +69,11 @@ export {
   elephant,
   letterK,
   logoenlarged,
-  originallogo
+  originallogo,
+  diversity,
+  insight,
+  management,
+  puzzle,
+  quality,
+  talentsearch
 };
