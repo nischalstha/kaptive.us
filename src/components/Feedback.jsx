@@ -7,7 +7,7 @@ const Feedback = ({ content, name, title, img, includeTitle }) => {
   return (
     <div
       className={`flex justify-between flex-col px-10 py-12 rounded-[20px] ${
-        includeTitle ? "max-w-[370px]" : " max-w-[430px]"
+        includeTitle ? "max-w-[370px]" : " max-w-[360px]"
       } md:mr-10 feedback-card`}
     >
       <img
