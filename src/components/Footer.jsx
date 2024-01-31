@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../style";
 import { footerLinks, socialMedia } from "../constants";
 import { logoenlarged } from "../assets";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -42,6 +43,8 @@ const Footer = () => {
                       >
                         {item.name}
                       </a>
+                    ) : item.id === "about" ? (
+                      <Link to="/about">{item.name}</Link>
                     ) : (
                       <a href={`#${item.id}`}> {item.name}</a>
                     )}
