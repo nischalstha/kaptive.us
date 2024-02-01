@@ -40,14 +40,12 @@ const App = () => {
     <Router>
       <Helmet>
         <title>Kaptiv.us</title>
-        <h1>Kaptiv.us</h1>
         <link rel="canonical" href="http://kaptiv.us" />
         <meta
           name="description"
           content="At Kaptiv, we redefine excellence in IT Staffing and Managed Service Solutions. As a leading technical consulting company, we are committed to delivering unparalleled expertise, innovation, and personalized services to propel your business into the digital future."
         ></meta>
       </Helmet>
-
       <div className="bg-primary w-full overflow-hidden">
         {/* Navbar always visible */}
         {isLoading && (
