@@ -39,7 +39,6 @@ const App = () => {
   return (
     <Router>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Kaptiv.us</title>
         <h1>Kaptiv.us</h1>
         <link rel="canonical" href="http://kaptiv.us" />
