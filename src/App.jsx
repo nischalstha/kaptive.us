@@ -45,6 +45,10 @@ const App = () => {
           name="description"
           content="At Kaptiv, we redefine excellence in IT Staffing and Managed Service Solutions. We are committed to delivering unparalleled expertise to propel your business."
         />
+        <meta
+          name="google-site-verification"
+          content="27pYsSdmMxp1Iq0uBiEGGODULRwja3B97oxrCO2A15A"
+        />
       </Helmet>
       <div className="bg-primary w-full overflow-hidden">
         {/* Navbar always visible */}
