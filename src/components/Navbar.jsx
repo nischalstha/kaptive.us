@@ -2,35 +2,47 @@ import React, { useState } from "react";
 import { close, menu, logoenlarged } from "../assets";
 import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ handleNavigation }) => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logoenlarged} alt="hoobank" className="w-[125px] h-[100%]" />
+      <Link to="/">
+        <img src={logoenlarged} alt="hoobank" className="w-[125px] h-[100%]" />
+      </Link>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, i) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               i === navLinks.length - 1 ? "mr-0" : "mr-10"
-            } text-white mr-10`}
+            } text-white`}
           >
             {nav.id === "book" ? (
               <a
                 href="https://calendly.com/kaptivus/staffing-discovery-call?month=2024-01"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="nav-link"
+                // onClick={handleNavigation} // Call handleNavigation when this link is clicked
               >
                 {nav.title}
               </a>
-            ) : nav.id === "about" ? (
-              <Link to="/about">{nav.title}</Link>
-            ) : nav.id === "home" ? (
-              <Link to="/">{nav.title}</Link>
             ) : (
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <NavLink
+                to={nav.id === "home" ? "/" : `/${nav.id}`}
+                className={({ isActive }) =>
+                  isActive
+                    ? "nav-link border-b-2 border-yellow-400"
+                    : "nav-link"
+                }
+                onClick={handleNavigation} // Call handleNavigation when this link is clicked
+                exact
+              >
+                {nav.title}
+              </NavLink>
             )}
           </li>
         ))}
@@ -76,6 +88,13 @@ const Navbar = () => {
                   ) : nav.id === "home" ? (
                     <Link
                       to="/"
+                      className="flex items-center w-full justify-start"
+                    >
+                      {nav.title}
+                    </Link>
+                  ) : nav.id === "contact" ? (
+                    <Link
+                      to="/contact"
                       className="flex items-center w-full justify-start"
                     >
                       {nav.title}

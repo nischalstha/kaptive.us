@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, kaptivelanding } from "../assets";
+import { discount, kaptivlanding } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -44,7 +44,7 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-12 relative`}
       >
         <div class="rounded-lg shadow-lg overflow-hidden p-4 mr-4">
-          <img src={kaptivelanding} alt="billing" class="w-full h-auto" />
+          <img src={kaptivlanding} alt="billing" class="w-full h-auto" />
         </div>
 
         <div className="absolute z-[1] w-[20%] h-[20%] rounded-full white__gradient bottom-40" />

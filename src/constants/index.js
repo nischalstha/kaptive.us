@@ -35,7 +35,7 @@ export const navLinks = [
     title: "Book Consultation (Free)"
   },
   {
-    id: "clients",
+    id: "contact",
     title: "Contact"
   }
 ];

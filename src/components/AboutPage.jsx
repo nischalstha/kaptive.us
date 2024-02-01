@@ -60,7 +60,7 @@ const AboutPage = () => {
             </p>
           </div>
           <div className={`${styles.flexCenter} mt-4 sm:mt-0 sm:ml-10 ml-0`}>
-            <Button />
+          <Button buttonTitle={"Lets Connect"} id={"calendly"} />
           </div>
         </section>
         <Footer />

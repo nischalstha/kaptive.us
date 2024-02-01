@@ -25,7 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import newlogo from "./newlogo.png";
 import headway from "./headway.jpg";
-import kaptivelanding from "./kaptivelanding.jpg";
+import kaptivlanding from "./kaptivelanding.jpg";
 import elephant from "./logos/elephant.png";
 import letterK from "./logos/letterK.png";
 import logoenlarged from "./logos/originallogo-enlarged.png";
@@ -65,7 +65,7 @@ export {
   people03,
   newlogo,
   headway,
-  kaptivelanding,
+  kaptivlanding,
   elephant,
   letterK,
   logoenlarged,
