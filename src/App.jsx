@@ -39,12 +39,12 @@ const App = () => {
   return (
     <Router>
       <Helmet>
-        <title>Kaptiv.us</title>
-        <link rel="canonical" href="http://kaptiv.us" />
+        <title>Kaptive.us - Kapturing today for better tomorrow</title>
+        <link rel="canonical" href="https://kaptiv.us/" />
         <meta
           name="description"
-          content="At Kaptiv, we redefine excellence in IT Staffing and Managed Service Solutions. As a leading technical consulting company, we are committed to delivering unparalleled expertise, innovation, and personalized services to propel your business into the digital future."
-        ></meta>
+          content="At Kaptiv, we redefine excellence in IT Staffing and Managed Service Solutions. We are committed to delivering unparalleled expertise to propel your business."
+        />
       </Helmet>
       <div className="bg-primary w-full overflow-hidden">
         {/* Navbar always visible */}
