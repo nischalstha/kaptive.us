@@ -7,10 +7,10 @@ const Feedback = ({ content, name, title, img, includeTitle }) => {
   return (
     <div
       className={`flex justify-between flex-col px-10 py-12 rounded-[20px] ${
-        includeTitle ? "max-w-[370px]" : " max-w-[360px]"
+        includeTitle ? "max-w-[370px]" : " max-w-[500px]"
       } md:mr-10 feedback-card`}
     >
-      {!includeTitle && (
+      {!includeTitle ? (
         <div className="flex items-center space-x-4">
           <img
             src={img}
@@ -20,6 +20,14 @@ const Feedback = ({ content, name, title, img, includeTitle }) => {
           <h6 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
             {name}
           </h6>
+        </div>
+      ) : (
+        <div className="flex items-center space-x-4">
+          <img
+            src={quotes}
+            alt="double-quotes"
+            className="w-[60px] h-[60px] object-contain"
+          />
         </div>
       )}
       {/* <img

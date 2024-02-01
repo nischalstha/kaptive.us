@@ -16,6 +16,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Terms from "./components/Terms";
 import TagManager from "react-gtm-module";
 import AboutPage from "./components/AboutPage";
+import { Helmet } from "react-helmet";
 
 const tagManagerArgs = {
   gtmId: "G-JVXP6PRWDQ"
@@ -26,6 +27,17 @@ TagManager.initialize(tagManagerArgs);
 const App = () => {
   return (
     <Router>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Kaptiv.us</title>
+        <link rel="canonical" href="http://kaptive.us" />
+        <meta
+          name="description"
+          content="Our mission at kaptiv.us is
+              to connect job seekers with fulfilling roles and help businesses
+              find the talent they need to thrive."
+        ></meta>
+      </Helmet>
       <div className="bg-primary w-full overflow-hidden">
         {/* Navbar always visible */}
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
