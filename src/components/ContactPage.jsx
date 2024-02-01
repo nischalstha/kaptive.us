@@ -59,7 +59,7 @@ const ContactPage = () => {
                     const name = form.name.value;
                     const email = form.email.value;
                     const message = form.message.value;
-                    window.location.href = `mailto:nischalshresthaaa@gmail.com?subject=Contact from ${name}&body=Name: ${name}%0AEmail: ${email}%0A%0AMessage: ${message}`;
+                    window.location.href = `mailto:samyam@kaptiv.us?subject=Contact from ${name}&body=Name: ${name}%0AEmail: ${email}%0A%0AMessage: ${message}`;
                   }}
                   className="w-full"
                 >
