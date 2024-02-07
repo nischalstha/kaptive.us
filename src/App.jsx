@@ -39,7 +39,7 @@ const App = () => {
   return (
     <Router>
       <Helmet>
-        <title>Kaptive.us - Kapturing today for better tomorrow</title>
+        <title>Kaptiv.us - Kapturing today for better tomorrow</title>
         <link rel="canonical" href="https://kaptiv.us/" />
         <meta
           name="description"
